@@ -34,7 +34,7 @@ color VoronoiNoise::obtainColor(const std::pair<float, color>* distances, char a
     case 's':
         return { cl, cl, 0, 255 };
     case 'c':
-        return { cl, 0, (unsigned char)((255 - cl) / 2), 255 };
+        return { cl, 0, 0, 255 };
     case 'g':
     default:
         return { cl, cl, cl, 255 };
